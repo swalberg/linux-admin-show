@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[The Linux Admin Show]]></title>
+  <link href="http://swalberg.github.com/linux-admin-show/atom.xml" rel="self"/>
+  <link href="http://swalberg.github.com/linux-admin-show/"/>
+  <updated>2012-08-28T15:47:40-05:00</updated>
+  <id>http://swalberg.github.com/linux-admin-show/</id>
+  <author>
+    <name><![CDATA[Sean Walberg]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[testing this out]]></title>
+    <link href="http://swalberg.github.com/linux-admin-show/2012/08/27/testing-this-out/"/>
+    <updated>2012-08-27T16:34:00-05:00</updated>
+    <id>http://swalberg.github.com/linux-admin-show/2012/08/27/testing-this-out</id>
+    <content type="html"><![CDATA[<p>Hello, world!</p>
+]]></content>
+  </entry>
+  
+</feed>
