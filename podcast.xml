@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title><![CDATA[The Linux Admin Show]]></title>
+    <link href="http://swalberg.github.com/linux-admin-show/"/>
+    <language>en-us</language>
+    <copyright>&#x2117; &amp; &#xA9; 2012 Sean Walberg</copyright>
+    <itunes:subtitle><![CDATA[A podcast for Linux Admins]]></itunes:subtitle>
+    <itunes:author>Sean Walberg</itunes:author>
+    <itunes:summary></itunes:summary>
+    <description></description>
+    <itunes:owner>
+      <itunes:name>Sean Walberg</itunes:name>
+      <itunes:email>sean@ertw.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything.jpg" />
+    <itunes:category text="Technology"/>
+    
+      <item>
+        <title><![CDATA[testing this out]]></title>
+        <itunes:subtitle><![CDATA[Liquid error: undefined method `gsub' for nil:NilClass]]></itunes:subtitle>
+        <itunes:summary><![CDATA[This is my subtitle]]></itunes:summary>
+        <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg" />
+        <enclosure url="http://example.com/podcasts/everything/AllAboutEverythingEpisode3.m4a" length="8727310" type="audio/x-m4a" />
+        <guid>http://example.com/podcasts/archive/aae20050615.m4a</guid>
+        <pubDate>Wed, 15 Jun 2005 19:00:00 GMT</pubDate>
+        <itunes:duration>7:04</itunes:duration>
+        <itunes:keywords>salt, pepper, shaker, exciting</itunes:keywords>
+      </item>
+    
+  </channel>
+</rss>
