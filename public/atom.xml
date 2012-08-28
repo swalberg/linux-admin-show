@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2012-08-27T14:56:57-05:00</updated>
-  <id>http://yoursite.com/</id>
+  <title><![CDATA[The Linux Admin Show]]></title>
+  <link href="http://www.linuxadminshow.com/atom.xml" rel="self"/>
+  <link href="http://www.linuxadminshow.com/"/>
+  <updated>2012-08-27T16:36:41-05:00</updated>
+  <id>http://www.linuxadminshow.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Sean Walberg]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[testing this out]]></title>
+    <link href="http://www.linuxadminshow.com/2012/08/27/testing-this-out/"/>
+    <updated>2012-08-27T16:34:00-05:00</updated>
+    <id>http://www.linuxadminshow.com/2012/08/27/testing-this-out</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
