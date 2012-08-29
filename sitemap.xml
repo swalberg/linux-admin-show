@@ -1,19 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://swalberg.github.com/linux-admin-show/2012/08/27/testing-this-out/</loc>
-        <lastmod>2012-08-28T15:46:56-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://swalberg.github.com/linux-admin-show/blog/archives/</loc>
-        <lastmod>2012-08-28T15:46:56-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://swalberg.github.com/linux-admin-show/</loc>
-        <lastmod>2012-08-28T15:46:56-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://swalberg.github.com/linux-admin-show/podcast.xml</loc>
+        <loc>http://linuxadminshow.com/blog/archives/</loc>
         <lastmod>2012-08-28T15:39:33-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://linuxadminshow.com/</loc>
+        <lastmod>2012-08-28T15:45:17-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://linuxadminshow.com/podcast.xml</loc>
+        <lastmod>2012-08-28T22:01:53-05:00</lastmod>
     </url>
 </urlset>

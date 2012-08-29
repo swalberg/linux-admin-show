@@ -1,32 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  >
+
   <channel>
     <title><![CDATA[The Linux Admin Show]]></title>
-    <link href="http://swalberg.github.com/linux-admin-show/"/>
-    <language>en-us</language>
-    <copyright>&#x2117; &amp; &#xA9; 2012 Sean Walberg</copyright>
-    <itunes:subtitle><![CDATA[A podcast for Linux Admins]]></itunes:subtitle>
-    <itunes:author>Sean Walberg</itunes:author>
-    <itunes:summary></itunes:summary>
+    <link>http://linuxadminshow.com</link>
+    <atom:link href="http://feeds.feedburner.com/linuxadminshow" rel="self" type="application/rss+xml" />
+    <atom:id>http://linuxadminshow.com/</atom:id>
+
     <description></description>
+    <language>en</language>
+
+    <lastBuildDate>2012-08-29 08:05:50 -0500</lastBuildDate>
+    <atom:updated>2012-08-29T08:05:50-05:00</atom:updated>
+    <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
+
+    <itunes:summary></itunes:summary>
+    <itunes:author>Sean Walberg</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://linuxadminshow.com" />
+    <itunes:category text="" />
     <itunes:owner>
       <itunes:name>Sean Walberg</itunes:name>
-      <itunes:email>sean@ertw.com</itunes:email>
+      <itunes:email></itunes:email>
     </itunes:owner>
-    <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything.jpg" />
-    <itunes:category text="Technology"/>
-    
-      <item>
-        <title><![CDATA[testing this out]]></title>
-        <itunes:subtitle><![CDATA[Liquid error: undefined method `gsub' for nil:NilClass]]></itunes:subtitle>
-        <itunes:summary><![CDATA[This is my subtitle]]></itunes:summary>
-        <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg" />
-        <enclosure url="http://example.com/podcasts/everything/AllAboutEverythingEpisode3.m4a" length="8727310" type="audio/x-m4a" />
-        <guid>http://example.com/podcasts/archive/aae20050615.m4a</guid>
-        <pubDate>Wed, 15 Jun 2005 19:00:00 GMT</pubDate>
-        <itunes:duration>7:04</itunes:duration>
-        <itunes:keywords>salt, pepper, shaker, exciting</itunes:keywords>
-      </item>
+    <managingEditor> (Sean Walberg)</managingEditor>
+    <copyright></copyright>
+    <itunes:subtitle>A podcast for Linux Admins</itunes:subtitle>
+    <itunes:keywords></itunes:keywords>
+    <image>
+      <title>The Linux Admin Show</title>
+      <url>http://linuxadminshow.com</url>
+      <link>http://linuxadminshow.com</link>
+    </image>
+
+    <media:copyright></media:copyright>
+    <media:thumbnail url="http://linuxadminshow.com" />
+    <media:keywords></media:keywords>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd"></media:category>
+    <media:credit role="author">Sean Walberg</media:credit>
+    <media:rating>nonadult</media:rating>
+    <media:description type="plain"></media:description>
+
     
   </channel>
 </rss>
+
