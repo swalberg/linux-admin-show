@@ -1,35 +1,96 @@
 ---
 layout: nil
 ---
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  >
+
   <channel>
     <title><![CDATA[{{ site.title }}]]></title>
-    <link href="{{ site.url }}/"/>
-    <language>en-us</language>
-    <copyright>&#x2117; &amp; &#xA9; 2012 Sean Walberg</copyright>
-    <itunes:subtitle><![CDATA[{{ site.subtitle }}]]></itunes:subtitle>
-    <itunes:author>Sean Walberg</itunes:author>
-    <itunes:summary></itunes:summary>
-    <description></description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.subscribe_rss }}" rel="self" type="application/rss+xml" />
+    <atom:id>{{ site.url }}/</atom:id>
+
+    <description>{{ site.description }}</description>
+    <language>en</language>
+
+    <lastBuildDate>{{ site.time | date_to_rfc2822 }}</lastBuildDate>
+    <atom:updated>{{ site.time | date_to_xmlschema }}</atom:updated>
+    <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
+
+    <itunes:summary>{{ site.summary }}</itunes:summary>
+    <itunes:author>{{ site.author }}</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="{{ site.url  }}{{ site.logo }}" />
+    <itunes:category text="{{ site.podcast_category }}" />
     <itunes:owner>
-      <itunes:name>Sean Walberg</itunes:name>
-      <itunes:email>sean@ertw.com</itunes:email>
+      <itunes:name>{{ site.author }}</itunes:name>
+      <itunes:email>{{ site.email }}</itunes:email>
     </itunes:owner>
-    <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything.jpg" />
-    <itunes:category text="Technology"/>
-    {% for post in site.posts %}
-      <item>
-        <title><![CDATA[{{ post.title | cdata_escape }}]]></title>
-        <itunes:subtitle><![CDATA[{{ post.subtitle | cdata_escape }}]]></itunes:subtitle>
-        <itunes:summary><![CDATA[{{ post.summary | cdata_escape }}]]></itunes:summary>
-        <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg" />
-        <enclosure url="http://example.com/podcasts/everything/AllAboutEverythingEpisode3.m4a" length="8727310" type="audio/x-m4a" />
-        <guid>http://example.com/podcasts/archive/aae20050615.m4a</guid>
-        <pubDate>Wed, 15 Jun 2005 19:00:00 GMT</pubDate>
-        <itunes:duration>7:04</itunes:duration>
-        <itunes:keywords>salt, pepper, shaker, exciting</itunes:keywords>
-      </item>
+    <managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
+    <copyright>{{ site.podcast_copyright }}</copyright>
+    <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
+    <itunes:keywords>{{ site.keywords }}</itunes:keywords>
+    <image>
+      <title>{{ site.title }}</title>
+      <url>{{  site.url  }}{{ site.logo }}</url>
+      <link>{{ site.url }}</link>
+    </image>
+
+    <media:copyright>{{ site.podcast_copyright }}</media:copyright>
+    <media:thumbnail url="{{ site.url }}" />
+    <media:keywords>{{ site.keywords }}</media:keywords>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">{{site.categories.to_a.first}}</media:category>
+    <media:credit role="author">{{ site.author }}</media:credit>
+    <media:rating>nonadult</media:rating>
+    <media:description type="plain">{{ site.description }}</media:description>
+
+    {% for post in site.posts limit: 100 %}
+    {% capture post_url %}{{ site.url }}{{ post.url }}{% endcapture %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>{{ post_url }}</link>
+      <comments>{{ site.url }}{{ post.url }}#comments</comments>
+      <pubDate>{{ post.date | date_to_rfc2822 }}</pubDate>
+      <atom:updated>{{ post.date | date_to_xmlschema }}</atom:updated>
+
+      {% for post_category in post.categories %}
+      <category><![CDATA[{{ post_category }}]]></category>
+      {% endfor %}
+
+      <media:credit role="author">{{ site.author }}</media:credit>
+      <media:rating>nonadult</media:rating>
+      {% if post.release %}
+      <guid isPermaLink="false">{{ site.url }}{{ post.id }}-{{ post.release }}</guid>
+      {% else %}
+      <guid isPermaLink="false">{{ site.url }}{{ post.id }}</guid>
+      {% endif %}
+      <description>
+        <![CDATA[{{ post.content | markdownify | expand_urls: site.url | cdata_escape }}]]>
+      </description>
+      {% if post.audio %}
+      {% assign podcast_audio = post.audio %}
+      {% assign_audio_metadata podcast_audio_meta = podcast_audio %}
+      <enclosure url="{{ podcast_audio }}"
+        length="{{ podcast_audio_meta.content_length }}"
+        type="{{ podcast_audio_meta.content_type }}" />
+      <media:content url="{{ podcast_audio}}"
+        fileSize="{{ podcast_audio_meta.content_length }}"
+        type="{{ podcast_audio_meta.content_type }}" />
+      <itunes:keywords>{{ post.tags }}</itunes:keywords>
+      <itunes:subtitle>{{ post.title }}</itunes:subtitle>
+      <itunes:duration>{{ podcast_audio_meta.duration }}</itunes:duration>
+      <itunes:summary>
+        <![CDATA[{{ post.content | markdownify | strip_html | truncate: 4000 | cdata_escape }}]]>
+      </itunes:summary>
+      <itunes:author>{{ site.author }}</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      {% endif %}
+    </item>
     {% endfor %}
   </channel>
 </rss>
+

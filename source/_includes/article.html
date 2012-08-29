@@ -26,3 +26,16 @@
 {% else %}
 <div class="entry-content">{{ content }}</div>
 {% endif %}
+{% if index %}
+{% assign podcast_audio = post.audio %}
+{% else %}
+{% assign podcast_audio = page.audio %}
+{% endif %}
+
+{% if podcast_audio %}
+<div class="audio-content">
+   {% audio podcast_audio %}
+  <p id="download-buttons">
+</div>
+{% endif %}
+
