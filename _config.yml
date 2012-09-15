@@ -7,7 +7,12 @@ title: The Linux Admin Show
 subtitle: A podcast for Linux Admins
 author: Sean Walberg
 simple_search: http://google.com/search
-description:
+description: The Linux Admin Show is a podcast for Linux administrators. We will talk about things of interest to systems administrators.
+summary: The Linux Admin Show is a podcast for Linux administrators. We will talk about things of interest to systems administrators.
+podcast_category: Technology
+podcast_copyright: 2012
+keywords: Linux, systems administration
+logo: /images/logo-1400.jpg
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,7 +24,7 @@ date_format: "ordinal"
 subscribe_rss: http://feeds.feedburner.com/linuxadminshow
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: hello@linuxadminshow.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
