@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Episode 1 - Network and systems management"
+date: 2012-09-13 19:24
+comments: true
+categories: 
+audio: http://linuxadminshow.com/audio/episode_1.mp3
+---
+
+## The Show
+
+This week I talked to Aaron Paxson, a seasoned IT professional. Aaron looks after a global network including both network elements and servers, and I thought that it would be interesting to talk network and systems management. We also talk about the benefits of being able to program even if that's not your job.
+
+## Links
+
+ * [Sean's Review of Deploying Rails](http://ertw.com/blog/2012/08/14/deploying-rails-review/)
+ * [Deploying Rails homepage](http://pragprog.com/book/cbdepra/deploying-rails)
+ * [FCAPS Model](http://en.wikipedia.org/wiki/FCAPS)
+ * [Nagios](http://www.nagios.org/)
+ * [OpenNMS](http://www.opennms.org/)
+ * [HP Intelligent Management Center](http://h17007.www1.hp.com/us/en/products/network-management/index.aspx#comprehensive)
+ * [Why I Prefer Net-SNMP](http://www.netopscommunity.net/web/neelixx/home/-/blogs/why-i-prefer-net-snmp)
+ * [Network Ops Community](http://www.netopscommunity.net/)
+
+## Closing thoughts
+
+Thanks to Aaron for his time and for being my first guest. If you want to find out more about Aaron, his blog is at [http://www.myteneo.net/home](http://www.myteneo.net/home) or you can check out his [network community](http://www.netopscommunity.net).
