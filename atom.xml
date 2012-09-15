@@ -4,13 +4,42 @@
   <title><![CDATA[The Linux Admin Show]]></title>
   <link href="http://linuxadminshow.com/atom.xml" rel="self"/>
   <link href="http://linuxadminshow.com/"/>
-  <updated>2012-08-31T17:42:53-05:00</updated>
+  <updated>2012-09-15T11:08:37-05:00</updated>
   <id>http://linuxadminshow.com/</id>
   <author>
     <name><![CDATA[Sean Walberg]]></name>
-    
+    <email><![CDATA[hello@linuxadminshow.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Episode 1]]></title>
+    <link href="http://linuxadminshow.com/2012/09/13/episode-1/"/>
+    <updated>2012-09-13T19:24:00-05:00</updated>
+    <id>http://linuxadminshow.com/2012/09/13/episode-1</id>
+    <content type="html"><![CDATA[<h2>The Show</h2>
+
+<p>This week I talked to Aaron Paxson, a seasoned IT professional. Aaron looks after a global network including both network elements and servers, and I thought that it would be interesting to talk network and systems management. We also talk about the benefits of being able to program even if that&#8217;s not your job.</p>
+
+<h2>Links</h2>
+
+<ul>
+<li><a href="http://ertw.com/blog/2012/08/14/deploying-rails-review/">Sean&#8217;s Review of Deploying Rails</a></li>
+<li><a href="http://pragprog.com/book/cbdepra/deploying-rails">Deploying Rails homepage</a></li>
+<li><a href="http://en.wikipedia.org/wiki/FCAPS">FCAPS Model</a></li>
+<li><a href="http://www.nagios.org/">Nagios</a></li>
+<li><a href="http://www.opennms.org/">OpenNMS</a></li>
+<li><a href="http://h17007.www1.hp.com/us/en/products/network-management/index.aspx#comprehensive">HP Intelligent Management Center</a></li>
+<li><a href="http://www.netopscommunity.net/web/neelixx/home/-/blogs/why-i-prefer-net-snmp">Why I Prefer Net-SNMP</a></li>
+<li><a href="http://www.netopscommunity.net/">Network Ops Community</a></li>
+</ul>
+
+
+<h2>Closing thoughts</h2>
+
+<p>Thanks to Aaron for his time and for being my first guest. If you want to find out more about Aaron, his blog is at <a href="http://www.myteneo.net/home">http://www.myteneo.net/home</a> or you can check out his <a href="http://www.netopscommunity.net">network community</a>.</p>
+]]></content>
+  </entry>
   
 </feed>
