@@ -14,8 +14,8 @@
     <description>The Linux Admin Show is a podcast for Linux administrators. We will talk about things of interest to systems administrators.</description>
     <language>en</language>
 
-    <lastBuildDate>2012-09-15 11:08:37 -0500</lastBuildDate>
-    <atom:updated>2012-09-15T11:08:37-05:00</atom:updated>
+    <lastBuildDate>2012-09-15 12:48:39 -0500</lastBuildDate>
+    <atom:updated>2012-09-15T12:48:39-05:00</atom:updated>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary>The Linux Admin Show is a podcast for Linux administrators. We will talk about things of interest to systems administrators.</itunes:summary>
@@ -48,7 +48,7 @@
     
     
     <item>
-      <title>Episode 1</title>
+      <title>Episode 1 - Network and systems management</title>
       <link>http://linuxadminshow.com/2012/09/13/episode-1/</link>
       <comments>http://linuxadminshow.com/2012/09/13/episode-1/#comments</comments>
       <pubDate>2012-09-13 19:24:00 -0500</pubDate>
@@ -110,7 +110,7 @@
         fileSize="20500607"
         type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
-      <itunes:subtitle>Episode 1</itunes:subtitle>
+      <itunes:subtitle>Episode 1 - Network and systems management</itunes:subtitle>
       <itunes:duration>42:42</itunes:duration>
       <itunes:summary>
         <![CDATA[The Show

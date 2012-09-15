@@ -4,7 +4,7 @@
   <title><![CDATA[The Linux Admin Show]]></title>
   <link href="http://linuxadminshow.com/atom.xml" rel="self"/>
   <link href="http://linuxadminshow.com/"/>
-  <updated>2012-09-15T11:08:37-05:00</updated>
+  <updated>2012-09-15T12:48:39-05:00</updated>
   <id>http://linuxadminshow.com/</id>
   <author>
     <name><![CDATA[Sean Walberg]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Episode 1]]></title>
+    <title type="html"><![CDATA[Episode 1 - Network and systems management]]></title>
     <link href="http://linuxadminshow.com/2012/09/13/episode-1/"/>
     <updated>2012-09-13T19:24:00-05:00</updated>
     <id>http://linuxadminshow.com/2012/09/13/episode-1</id>
