@@ -23,6 +23,7 @@ date_format: "ordinal"
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: http://feeds.feedburner.com/linuxadminshow
 subscribe_email:
+subscribe_itunes: https://itunes.apple.com/ca/podcast/the-linux-admin-show/id562574557
 # RSS feeds can list your email address if you like
 email: hello@linuxadminshow.com
 

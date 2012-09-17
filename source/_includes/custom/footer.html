@@ -2,3 +2,10 @@
   Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }} -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
+<script type="text/javascript">
+  (function() {
+    document.querySelector("audio").addEventListener("play", function(e) {
+      _gaq.push(["_trackEvent","Audio", e.type, $(this).attr('src'), 1]);
+      } ,false);
+  })();
+</script>
