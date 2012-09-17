@@ -39,7 +39,6 @@ Sep 13 2012 Recent Posts Episode 1 - Network and systems management ">
     (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
 
@@ -57,7 +56,7 @@ Sep 13 2012 Recent Posts Episode 1 - Network and systems management ">
 </header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
   <li><a href="http://feeds.feedburner.com/linuxadminshow" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  <li><a href="http://feeds.feedburner.com/linuxadminshow" rel="subscribe-itunes" title="subscribe via wiTunes">iTunes</a></li>
+  <li><a href="https://itunes.apple.com/ca/podcast/the-linux-admin-show/id562574557" rel="subscribe-itunes" title="subscribe via wiTunes">iTunes</a></li>
   
 </ul>
   
@@ -134,6 +133,13 @@ Sep 13 2012 Recent Posts Episode 1 - Network and systems management ">
   Copyright &copy; 2012 - Sean Walberg -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
+<script type="text/javascript">
+  (function() {
+    document.querySelector("audio").addEventListener("play", function(e) {
+      _gaq.push(["_trackEvent","Audio", e.type, $(this).attr('src'), 1]);
+      } ,false);
+  })();
+</script>
 
 </footer>
   
