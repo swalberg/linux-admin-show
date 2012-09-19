@@ -14,8 +14,8 @@
     <description>The Linux Admin Show is a podcast for Linux administrators. We will talk about things of interest to systems administrators.</description>
     <language>en</language>
 
-    <lastBuildDate>2012-09-17 12:49:37 -0500</lastBuildDate>
-    <atom:updated>2012-09-17T12:49:37-05:00</atom:updated>
+    <lastBuildDate>2012-09-18 21:49:55 -0500</lastBuildDate>
+    <atom:updated>2012-09-18T21:49:55-05:00</atom:updated>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary>The Linux Admin Show is a podcast for Linux administrators. We will talk about things of interest to systems administrators.</itunes:summary>
@@ -86,6 +86,7 @@
 <li><a href="http://h17007.www1.hp.com/us/en/products/network-management/index.aspx#comprehensive">HP Intelligent Management Center</a></li>
 <li><a href="http://www.netopscommunity.net/web/neelixx/home/-/blogs/why-i-prefer-net-snmp">Why I Prefer Net-SNMP</a></li>
 <li><a href="http://www.netopscommunity.net/">Network Ops Community</a></li>
+<li><a href="http://wiki.preshweb.co.uk/doku.php?id=perl:virtues">Virtues of a programmer</a></li>
 </ul>
 
 
@@ -137,6 +138,7 @@ OpenNMS
 HP Intelligent Management Center
 Why I Prefer Net-SNMP
 Network Ops Community
+Virtues of a programmer
 
 
 
