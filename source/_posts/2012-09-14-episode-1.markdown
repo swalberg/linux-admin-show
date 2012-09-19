@@ -21,6 +21,7 @@ This week I talked to Aaron Paxson, a seasoned IT professional. Aaron looks afte
  * [HP Intelligent Management Center](http://h17007.www1.hp.com/us/en/products/network-management/index.aspx#comprehensive)
  * [Why I Prefer Net-SNMP](http://www.netopscommunity.net/web/neelixx/home/-/blogs/why-i-prefer-net-snmp)
  * [Network Ops Community](http://www.netopscommunity.net/)
+ * [Virtues of a programmer](http://wiki.preshweb.co.uk/doku.php?id=perl:virtues)
 
 ## Closing thoughts
 
