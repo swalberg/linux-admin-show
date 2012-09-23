@@ -14,8 +14,8 @@
     <description>The Linux Admin Show is a podcast for Linux administrators. We will talk about things of interest to systems administrators.</description>
     <language>en</language>
 
-    <lastBuildDate>2012-09-18 21:49:55 -0500</lastBuildDate>
-    <atom:updated>2012-09-18T21:49:55-05:00</atom:updated>
+    <lastBuildDate>2012-09-22 21:58:38 -0500</lastBuildDate>
+    <atom:updated>2012-09-22T21:58:38-05:00</atom:updated>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary>The Linux Admin Show is a podcast for Linux administrators. We will talk about things of interest to systems administrators.</itunes:summary>
@@ -45,6 +45,116 @@
     <media:rating>nonadult</media:rating>
     <media:description type="plain">The Linux Admin Show is a podcast for Linux administrators. We will talk about things of interest to systems administrators.</media:description>
 
+    
+    
+    <item>
+      <title>Episode 2 - Secure Sockets Layer</title>
+      <link>http://linuxadminshow.com/2012/09/22/episode-2-ssl/</link>
+      <comments>http://linuxadminshow.com/2012/09/22/episode-2-ssl/#comments</comments>
+      <pubDate>2012-09-22 21:36:00 -0500</pubDate>
+      <atom:updated>2012-09-22T21:36:00-05:00</atom:updated>
+
+      
+
+      <media:credit role="author">Sean Walberg</media:credit>
+      <media:rating>nonadult</media:rating>
+      
+      <guid isPermaLink="false">http://linuxadminshow.com/2012/09/22/episode-2-ssl</guid>
+      
+      <description>
+        <![CDATA[<h2>The Show</h2>
+
+
+
+
+<p>This week I talked to Sean Cody who is a local Unix administrator with a strong interest in security, especially Secure Sockets Layer (SSL). We got on Skype and talked about various issues to do with SSL, such as trust and proper creation and handling of certificates.</p>
+
+
+
+
+<h2>Links</h2>
+
+
+
+
+<ul>
+<li><p><a href="http://www.youtube.com/watch?v=ibF36Yyeehw">DEFCON 17: More Tricks For Defeating SSL presentation by Moxie Marlinspike</a> - Sean attended this talk and &#8220;it just completely opened my eyes to how weak SSL &#8216;as typically assumed&#8217; is.&#8221;</p></li>
+<li><p><a href="http://it.toolbox.com/blogs/securitymonkey/howto-securing-a-website-with-client-ssl-certificates-11500">Setting up a CA</a></p></li>
+<li><p><a href="http://www.webtrust.org/homepage-documents/item27839.aspx">An example of a CA trust policy framework</a></p></li>
+<li><p><a href="http://www.sericontech.com/Downloads/Untrusted_Root_Certificates_Considered_Harmful.pdf">A Whitepaper about untrusted root certificates</a> - This &#8216;whitepaper&#8217; is decent.. not great but not terrible on the topic of untrusted root certs.</p></li>
+<li><p><a href="http://www.sslshopper.com/article-most-common-openssl-commands.html">A very nice cheat sheet</a> - the most common OpenSSL commands.</p></li>
+<li><p><a href="http://codahale.com/a-lesson-in-timing-attacks/">A lesson in timing attacks</a> - One of the many ways attackers can subvert an encrypted channel to retreive a cookie.</p></li>
+<li><p><a href="http://security.stackexchange.com/questions/19911/crime-how-to-beat-the-beast-successor/19914#19914">An attack against compressed SSL</a></p></li>
+<li><a href="http://arduino.cc">Arduino</a></li>
+</ul>
+
+
+
+
+<h2>Closing thoughts</h2>
+
+
+
+
+<p>We talked about a lot of things this week having to do with SSL, and surprisingly most of them focused on the identity aspect, that is &#8220;am I talking to the person/thing I think I am&#8221;, as opposed to the encryption part. After our discussion I have a renewed appreciation for this phase, it is indeed more important than most give it credit for.</p>
+
+]]>
+      </description>
+      
+      
+      
+      <enclosure url="http://linuxadminshow.com/audio/episode_2.mp3"
+        length="26583376"
+        type="audio/mpeg" />
+      <media:content url="http://linuxadminshow.com/audio/episode_2.mp3"
+        fileSize="26583376"
+        type="audio/mpeg" />
+      <itunes:keywords></itunes:keywords>
+      <itunes:subtitle>Episode 2 - Secure Sockets Layer</itunes:subtitle>
+      <itunes:duration>55:22</itunes:duration>
+      <itunes:summary>
+        <![CDATA[The Show
+
+
+
+
+This week I talked to Sean Cody who is a local Unix administrator with a strong interest in security, especially Secure Sockets Layer (SSL). We got on Skype and talked about various issues to do with SSL, such as trust and proper creation and handling of certificates.
+
+
+
+
+Links
+
+
+
+
+
+DEFCON 17: More Tricks For Defeating SSL presentation by Moxie Marlinspike - Sean attended this talk and &#8220;it just completely opened my eyes to how weak SSL &#8216;as typically assumed&#8217; is.&#8221;
+Setting up a CA
+An example of a CA trust policy framework
+A Whitepaper about untrusted root certificates - This &#8216;whitepaper&#8217; is decent.. not great but not terrible on the topic of untrusted root certs.
+A very nice cheat sheet - the most common OpenSSL commands.
+A lesson in timing attacks - One of the many ways attackers can subvert an encrypted channel to retreive a cookie.
+An attack against compressed SSL
+Arduino
+
+
+
+
+
+Closing thoughts
+
+
+
+
+We talked about a lot of things this week having to do with SSL, and surprisingly most of them focused on the identity aspect, that is &#8220;am I talking to the person/thing I think I am&#8221;, as opposed to the encryption part. After our discussion I have a renewed appreciation for this phase, it is indeed more important than most give it credit for.
+
+]]>
+      </itunes:summary>
+      <itunes:author>Sean Walberg</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      
+    </item>
     
     
     <item>

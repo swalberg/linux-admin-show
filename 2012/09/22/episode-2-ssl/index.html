@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Episode 2 - Secure Sockets Layer - The Linux Admin Show</title>
+  <meta name="author" content="Sean Walberg">
+
+  
+  <meta name="description" content="The Show This week I talked to Sean Cody who is a local Unix administrator with a strong interest in security, especially Secure Sockets Layer (SSL &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://linuxadminshow.com/2012/09/22/episode-2-ssl/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/linuxadminshow" rel="alternate" title="The Linux Admin Show" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-66328-11']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">The Linux Admin Show</a></h1>
+  
+    <h2>A podcast for Linux Admins</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.feedburner.com/linuxadminshow" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  <li><a href="https://itunes.apple.com/ca/podcast/the-linux-admin-show/id562574557" rel="subscribe-itunes" title="subscribe via wiTunes">iTunes</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:linuxadminshow.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Episode 2 - Secure Sockets Layer</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-22T21:36:00-05:00" pubdate data-updated="true">Sep 22<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2>The Show</h2>
+
+<p>This week I talked to Sean Cody who is a local Unix administrator with a strong interest in security, especially Secure Sockets Layer (SSL). We got on Skype and talked about various issues to do with SSL, such as trust and proper creation and handling of certificates.</p>
+
+<h2>Links</h2>
+
+<ul>
+<li><p><a href="http://www.youtube.com/watch?v=ibF36Yyeehw">DEFCON 17: More Tricks For Defeating SSL presentation by Moxie Marlinspike</a> - Sean attended this talk and &#8220;it just completely opened my eyes to how weak SSL &#8216;as typically assumed&#8217; is.&#8221;</p></li>
+<li><p><a href="http://it.toolbox.com/blogs/securitymonkey/howto-securing-a-website-with-client-ssl-certificates-11500">Setting up a CA</a></p></li>
+<li><p><a href="http://www.webtrust.org/homepage-documents/item27839.aspx">An example of a CA trust policy framework</a></p></li>
+<li><p><a href="http://www.sericontech.com/Downloads/Untrusted_Root_Certificates_Considered_Harmful.pdf">A Whitepaper about untrusted root certificates</a> - This &#8216;whitepaper&#8217; is decent.. not great but not terrible on the topic of untrusted root certs.</p></li>
+<li><p><a href="http://www.sslshopper.com/article-most-common-openssl-commands.html">A very nice cheat sheet</a> - the most common OpenSSL commands.</p></li>
+<li><p><a href="http://codahale.com/a-lesson-in-timing-attacks/">A lesson in timing attacks</a> - One of the many ways attackers can subvert an encrypted channel to retreive a cookie.</p></li>
+<li><p><a href="http://security.stackexchange.com/questions/19911/crime-how-to-beat-the-beast-successor/19914#19914">An attack against compressed SSL</a></p></li>
+<li><a href="http://arduino.cc">Arduino</a></li>
+</ul>
+
+
+<h2>Closing thoughts</h2>
+
+<p>We talked about a lot of things this week having to do with SSL, and surprisingly most of them focused on the identity aspect, that is &#8220;am I talking to the person/thing I think I am&#8221;, as opposed to the encryption part. After our discussion I have a renewed appreciation for this phase, it is indeed more important than most give it credit for.</p>
+</div>
+
+
+
+
+
+
+<div class="audio-content">
+   <audio preload='none' controls><source src='http://linuxadminshow.com/audio/episode_2.mp3' type='audio/mp3' /></audio>
+  <p id="download-buttons">
+</div>
+
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Sean Walberg</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-22T21:36:00-05:00" pubdate data-updated="true">Sep 22<span>nd</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://linuxadminshow.com/2012/09/22/episode-2-ssl/" data-via="" data-counturl="http://linuxadminshow.com/2012/09/22/episode-2-ssl/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2012/09/13/episode-1/" title="Previous Post: Episode 1 - Network and systems management">&laquo; Episode 1 - Network and systems management</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/09/22/episode-2-ssl/">Episode 2 - Secure Sockets Layer</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/09/13/episode-1/">Episode 1 - Network and systems management</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Sean Walberg -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+<script type="text/javascript">
+  (function() {
+    document.querySelector("audio").addEventListener("play", function(e) {
+      _gaq.push(["_trackEvent","Audio", e.type, $(this).attr('src'), 1]);
+      } ,false);
+  })();
+</script>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'linuxadminshow';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://linuxadminshow.com/2012/09/22/episode-2-ssl/';
+        var disqus_url = 'http://linuxadminshow.com/2012/09/22/episode-2-ssl/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

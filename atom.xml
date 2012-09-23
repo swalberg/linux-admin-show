@@ -4,7 +4,7 @@
   <title><![CDATA[The Linux Admin Show]]></title>
   <link href="http://linuxadminshow.com/atom.xml" rel="self"/>
   <link href="http://linuxadminshow.com/"/>
-  <updated>2012-09-18T21:49:55-05:00</updated>
+  <updated>2012-09-22T21:58:38-05:00</updated>
   <id>http://linuxadminshow.com/</id>
   <author>
     <name><![CDATA[Sean Walberg]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Episode 2 - Secure Sockets Layer]]></title>
+    <link href="http://linuxadminshow.com/2012/09/22/episode-2-ssl/"/>
+    <updated>2012-09-22T21:36:00-05:00</updated>
+    <id>http://linuxadminshow.com/2012/09/22/episode-2-ssl</id>
+    <content type="html"><![CDATA[<h2>The Show</h2>
+
+<p>This week I talked to Sean Cody who is a local Unix administrator with a strong interest in security, especially Secure Sockets Layer (SSL). We got on Skype and talked about various issues to do with SSL, such as trust and proper creation and handling of certificates.</p>
+
+<h2>Links</h2>
+
+<ul>
+<li><p><a href="http://www.youtube.com/watch?v=ibF36Yyeehw">DEFCON 17: More Tricks For Defeating SSL presentation by Moxie Marlinspike</a> - Sean attended this talk and &#8220;it just completely opened my eyes to how weak SSL &#8216;as typically assumed&#8217; is.&#8221;</p></li>
+<li><p><a href="http://it.toolbox.com/blogs/securitymonkey/howto-securing-a-website-with-client-ssl-certificates-11500">Setting up a CA</a></p></li>
+<li><p><a href="http://www.webtrust.org/homepage-documents/item27839.aspx">An example of a CA trust policy framework</a></p></li>
+<li><p><a href="http://www.sericontech.com/Downloads/Untrusted_Root_Certificates_Considered_Harmful.pdf">A Whitepaper about untrusted root certificates</a> - This &#8216;whitepaper&#8217; is decent.. not great but not terrible on the topic of untrusted root certs.</p></li>
+<li><p><a href="http://www.sslshopper.com/article-most-common-openssl-commands.html">A very nice cheat sheet</a> - the most common OpenSSL commands.</p></li>
+<li><p><a href="http://codahale.com/a-lesson-in-timing-attacks/">A lesson in timing attacks</a> - One of the many ways attackers can subvert an encrypted channel to retreive a cookie.</p></li>
+<li><p><a href="http://security.stackexchange.com/questions/19911/crime-how-to-beat-the-beast-successor/19914#19914">An attack against compressed SSL</a></p></li>
+<li><a href="http://arduino.cc">Arduino</a></li>
+</ul>
+
+
+<h2>Closing thoughts</h2>
+
+<p>We talked about a lot of things this week having to do with SSL, and surprisingly most of them focused on the identity aspect, that is &#8220;am I talking to the person/thing I think I am&#8221;, as opposed to the encryption part. After our discussion I have a renewed appreciation for this phase, it is indeed more important than most give it credit for.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Episode 1 - Network and systems management]]></title>
