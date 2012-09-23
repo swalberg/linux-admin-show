@@ -4,7 +4,9 @@ title: "Episode 1 - Network and systems management"
 date: 2012-09-13 19:24
 comments: true
 categories: 
-audio: http://linuxadminshow.com/audio/episode_1.mp3
+audio:
+  mp3: http://linuxadminshow.com/audio/episode_1.mp3
+  ogg: http://linuxadminshow.com/audio/episode_1.ogg
 ---
 
 ## The Show

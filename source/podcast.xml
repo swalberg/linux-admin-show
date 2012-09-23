@@ -72,7 +72,7 @@ layout: nil
         <![CDATA[{{ post.content | markdownify | expand_urls: site.url | cdata_escape }}]]>
       </description>
       {% if post.audio %}
-      {% assign podcast_audio = post.audio %}
+      {% assign podcast_audio = post.audio["mp3"] %}
       {% assign_audio_metadata podcast_audio_meta = podcast_audio %}
       <enclosure url="{{ podcast_audio }}"
         length="{{ podcast_audio_meta.content_length }}"

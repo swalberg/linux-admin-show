@@ -36,6 +36,12 @@
 <div class="audio-content">
    {% audio podcast_audio %}
   <p id="download-buttons">
+  Download:
+  {% for url in podcast_audio %}
+  <a href="{{ url[1] }}">{{ url[0] }}</a>
+  {% endfor %}
+  </p>
+  
 </div>
 {% endif %}
 

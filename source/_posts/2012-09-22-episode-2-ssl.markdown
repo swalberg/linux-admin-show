@@ -4,7 +4,9 @@ title: "Episode 2 - Secure Sockets Layer"
 date: 2012-09-22 21:36
 comments: true
 categories: 
-audio: http://linuxadminshow.com/audio/episode_2.mp3
+audio:
+  mp3: http://linuxadminshow.com/audio/episode_2.mp3
+  ogg: http://linuxadminshow.com/audio/episode_2.ogg
 ---
 
 ## The Show
