@@ -11,7 +11,7 @@ audio:
 
 ## The Show
 
-This week I talked with Ross Brunson, the Director of Member Services for the Linux Professional Instutite
+This week I talked with Ross Brunson, the Director of Member Services for the Linux Professional Institute
 
 ## Links
 
