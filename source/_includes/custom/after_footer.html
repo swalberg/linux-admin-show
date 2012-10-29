@@ -18,4 +18,9 @@
       }
     }
   }
+  (function() {
+    document.querySelector("audio").addEventListener("play", function(e) {
+      _gaq.push(["_trackEvent","Audio", e.type, this.currentSrc, 1]);
+      } ,false);
+  })();
 </script>
