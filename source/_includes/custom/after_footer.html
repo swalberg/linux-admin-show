@@ -1,3 +1,21 @@
 {% comment %}
   Add content to be output at the bottom of each page. (You might use this for analytics scripts, for example)
 {% endcomment %}
+<script type="text/javascript">
+  function recordOutboundLink(link) {
+    try {
+      var myTracker=_gat._getTrackerByName();
+      _gaq.push(['myTracker._trackEvent', "Outbound Links" ,link.href]);
+      setTimeout('document.location = "' + link.href + '"', 100);
+    }catch(err){}
+  }
+
+  var a = document.getElementsByTagName('a');
+  for (i = 0; i < a.length; i++){
+    if (a[i].href.indexOf(location.host) == -1 && a[i].href.match(/^http:\/\//i)) {
+      a[i].onclick = function(){
+        recordOutboundLink(this);
+      }
+    }
+  }
+</script>
