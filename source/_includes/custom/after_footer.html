@@ -4,8 +4,7 @@
 <script type="text/javascript">
   function recordOutboundLink(link) {
     try {
-      var myTracker=_gat._getTrackerByName();
-      _gaq.push(['myTracker._trackEvent', "Outbound Links" ,link.href]);
+      _gaq.push(['_trackEvent', "Outbound Click", link.href, 0]);
       setTimeout('document.location = "' + link.href + '"', 100);
     }catch(err){}
   }
