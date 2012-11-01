@@ -1,6 +1,6 @@
 <ul class="subscription" data-subscription="rss{% if site.subscribe_email %} email{% endif %}">
-  <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  <li><a href="{{ site.subscribe_itunes }}" rel="subscribe-itunes" title="subscribe via wiTunes">iTunes</a></li>
+  <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS" onclick="_gaq.push(['_trackPageview','/G1/rss']);" >RSS</a></li>
+  <li><a href="{{ site.subscribe_itunes }}" rel="subscribe-itunes" title="subscribe via wiTunes" onclick="_gaq.push(['_trackPageview','/G1/itunes']);">iTunes</a></li>
   {% if site.subscribe_email %}
     <li><a href="{{ site.subscribe_email }}" rel="subscribe-email" title="subscribe via email">Email</a></li>
   {% endif %}
